@@ -1,2 +1,0 @@
-# StrangerTEC
-Proyecto Universitario
