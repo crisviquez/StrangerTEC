@@ -6,7 +6,7 @@ import random
 
 # ─── Config global ────────────────────────────────────────────
 PICO_IP = None
-INTERVALO = 2.0
+INTERVALO = 0.4
 
 UNIDADES = {"A": 0.2, "B": 0.3}
 unidad_actual = "A"
