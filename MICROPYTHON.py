@@ -249,6 +249,7 @@ def manejar_peticion(cliente):
 # Main
 # ─────────────────────────────────────────
 def main():
+    apagar_todo()
     ip = conectar_wifi()
     if ip is None:
         return
