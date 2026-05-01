@@ -13,7 +13,7 @@ PASSWORD = "Mgliving1234"
 # Pines: botón, LED onboard, buzzer
 # ─────────────────────────────────────────
 boton  = Pin(16, Pin.IN, Pin.PULL_UP)
-led    = Pin(15, Pin.OUT)
+led    = Pin('LED', Pin.OUT)
 buzzer = PWM(Pin(18))
 buzzer.freq(1900)
 buzzer.duty_u16(0)
